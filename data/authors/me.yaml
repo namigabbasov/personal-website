@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Namig Abbasov
+  display: Namig Abbasov, PhD
   given: Namig
   family: Abbasov
 status:

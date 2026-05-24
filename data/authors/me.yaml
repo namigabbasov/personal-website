@@ -2,115 +2,91 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Namig Abbasov
+  given: Namig
+  family: Abbasov
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🔍"
+role: AI & Technology Initiatives Librarian
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
-
+   I am a scholar-practitioner leading the integration of AI into academic research and higher education. I am fascinated by the science behind computing and technology, and I use that curiosity to build the infrastructure—pipelines, datasets, and search tools—that turn raw information into navigable knowledge. By blending a background in computational social science with data science, my work spans the full lifecycle of AI in higher education, from infrastructure architecture and institutional governance to the critical evaluation of models and the cultivation of AI-literacy in research. I advocate for an Auditable AI future that balances rapid innovation with institutional compliance. 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Stanford Law School
+    url: https://law.stanford.edu/
 
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+  - icon: envelope
+    url: mailto:namig.abbasov@stanford.edu
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/namigabbasov
+    label: GitHub
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/namigabbasov/
+    label: LinkedIn
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?user=YOUR_ID_HERE
+    label: Google Scholar
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/YOUR_ORCID_ID
+    label: ORCID
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - AI Governance & Policy
+  - Auditable AI Architectures
+  - AI Engineering and Orchestration
+  - Computational Social Science
+  - Institutional Infrastructure
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD Political Science
+    institution: Arizona State University
+    start: 2017-08-01
+    end: 2022-12-12
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Focused on intersection of advanced quantitative methods and computational social science
+  - degree: MS Data Science
+    institution: University of Arizona
+    start: 2025-12-16
+    end: 2024-08-08
+  - degree: BS European Studies and Economic Sciences
+    institution: Qafqaz University
+    start: 2008-09-15
+    end: 2012-05-31
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: AI & Technology Initiatives Librarian
+    org: Stanford Law School
+    start: 2026-04-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      - Innovate library services by building AI discovery tools and RAG-based workflows
+      - Lead digital collections(CFP, ACIS) from raw data to AI-driven research platforms
+      - Establish institutional AI governance and auditing frameworks for legal research
+
+  - role: Digital Humanities Analyst
+    org: Arizona State University
+    start: 2023-08-14
+    end: 2026-03-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      - Conducted research on AI adoption in higher education, and academic workflows
+      - Provided instruction on generative AI tools and advanced computational methodologies
+      - Supervised student projects and honor theses on data science and computational social science
+      
 
 skills:
-  - name: Technical Skills
+  - name: Strategic Leadership
     items:
-      - label: Python
+      - label: AI Governance & Policy
         level: 5
-      - label: Machine Learning
+      - label: Institutional Strategy
         level: 5
-      - label: Cloud Computing
+      - label: Risk Mitigation
         level: 4
-  - name: Research & Communication
+  - name: Technical Execution
     items:
-      - label: Academic Writing
+      - label: Data Science & Modeling
         level: 5
-      - label: Conference Presentations
+      - label: AI Engineering 
         level: 4
-      - label: Grant Proposals
+      - label: Local LLMs Infrastructure
         level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy

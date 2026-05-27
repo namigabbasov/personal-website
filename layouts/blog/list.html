@@ -1,0 +1,54 @@
+{{ define "main" }}
+<div class="page-body my-10">
+  <div class="container mx-auto px-4 py-8 max-w-5xl">
+
+    <h1 class="text-4xl font-bold mb-3 text-center">{{ .Title }}</h1>
+    <p class="text-center text-slate-500 dark:text-slate-400 mb-14 text-lg">
+      Writing, tutorials, and AI resources across platforms
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Substack -->
+      <a href="https://substack.com" target="_blank" rel="noopener"
+         class="group flex flex-col rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 no-underline">
+        <div class="text-5xl mb-5">✍️</div>
+        <h2 class="text-xl font-semibold mb-3 text-slate-900 dark:text-white group-hover:text-primary-500 transition-colors">
+          Substack
+        </h2>
+        <p class="text-slate-500 dark:text-slate-400 flex-grow text-sm leading-relaxed mb-6">
+          Essays and reflections on AI governance, academic research, and the future of higher education.
+        </p>
+        <span class="text-sm font-semibold text-primary-500">Read on Substack →</span>
+      </a>
+
+      <!-- AI for Academic Libraries -->
+      <a href="https://ai4academiclibraries.com" target="_blank" rel="noopener"
+         class="group flex flex-col rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 no-underline">
+        <div class="text-5xl mb-5">📚</div>
+        <h2 class="text-xl font-semibold mb-3 text-slate-900 dark:text-white group-hover:text-primary-500 transition-colors">
+          AI for Academic Libraries
+        </h2>
+        <p class="text-slate-500 dark:text-slate-400 flex-grow text-sm leading-relaxed mb-6">
+          AI news, tutorials, and practical resources for academic librarians and researchers.
+        </p>
+        <span class="text-sm font-semibold text-primary-500">Visit Site →</span>
+      </a>
+
+      <!-- EurekaRaven -->
+      <a href="https://eurekaraven.com" target="_blank" rel="noopener"
+         class="group flex flex-col rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 no-underline">
+        <div class="text-5xl mb-5">🎬</div>
+        <h2 class="text-xl font-semibold mb-3 text-slate-900 dark:text-white group-hover:text-primary-500 transition-colors">
+          EurekaRaven
+        </h2>
+        <p class="text-slate-500 dark:text-slate-400 flex-grow text-sm leading-relaxed mb-6">
+          AI content, in-depth tutorials, and video explorations on YouTube.
+        </p>
+        <span class="text-sm font-semibold text-primary-500">Visit Site →</span>
+      </a>
+
+    </div>
+  </div>
+</div>
+{{ end }}

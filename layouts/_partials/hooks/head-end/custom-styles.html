@@ -1,0 +1,124 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+  /* ── Global ─────────────────────────────────── */
+
+  /* Navbar — sharp glass (dark mode only) */
+  .navbar {
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  .dark .navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    background-color: rgba(9, 9, 11, 0.8) !important;
+  }
+
+  /* Navbar menu text size */
+  .navbar-nav a {
+    font-size: 1.05rem !important;
+    letter-spacing: 0.01em;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar { width: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(20, 184, 166, 0.35);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(20, 184, 166, 0.6); }
+
+  /* Section titles — teal left accent bar */
+  .section-heading h2 {
+    border-left: 4px solid #14b8a6;
+    padding-left: 0.75rem;
+  }
+
+  /* Cards — teal glow on hover */
+  .card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  .card:hover {
+    box-shadow: 0 0 32px rgba(20, 184, 166, 0.15);
+    transform: translateY(-2px);
+  }
+
+  /* Publication citation view — subtle left border */
+  .pub-list-item {
+    border-left: 2px solid rgba(20, 184, 166, 0.25);
+    padding-left: 1rem;
+    transition: border-color 0.2s;
+  }
+  .pub-list-item:hover { border-left-color: #14b8a6; }
+
+  /* ── Hero / Bio section ──────────────────────── */
+
+  /* Dot grid + dual teal glow */
+  .resume-biography {
+    background:
+      radial-gradient(ellipse 100% 55% at 50% -5%, rgba(20, 184, 166, 0.13), transparent 70%),
+      radial-gradient(ellipse 50% 35% at 85% 105%, rgba(45, 212, 191, 0.07), transparent 60%);
+    position: relative;
+  }
+
+  .resume-biography::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    background-size: 28px 28px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .resume-biography .max-w-7xl {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Avatar — teal ring, deep shadow */
+  .avatar {
+    border: 2px solid rgba(20, 184, 166, 0.55) !important;
+    box-shadow: 0 0 0 5px rgba(20, 184, 166, 0.08), 0 24px 48px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  /* Name — light mode default: dark-to-teal gradient */
+  .resume-biography h1 {
+    letter-spacing: -0.035em;
+    background: linear-gradient(135deg, #0f172a 55%, #0d9488);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Name — dark mode: plain white */
+  .dark .resume-biography h1 {
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    background-clip: unset !important;
+    -webkit-text-fill-color: #ffffff !important;
+    color: #ffffff;
+  }
+
+  /* Role label — refined weight */
+  .resume-biography p.text-2xl {
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  /* Social icon buttons — glassmorphism */
+  .resume-biography a.w-12 {
+    background: rgba(255, 255, 255, 0.04) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: none !important;
+  }
+
+  .resume-biography a.w-12:hover {
+    background: rgba(20, 184, 166, 0.12) !important;
+    border-color: rgba(20, 184, 166, 0.35) !important;
+    color: #2dd4bf !important;
+  }
+</style>
